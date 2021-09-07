@@ -40,6 +40,7 @@ public class SuperHeroControllerMockMvcWithContextTest {
     private SuperHeroRepository superHeroRepository;
 
     // This object will be initialized thanks to @AutoConfigureJsonTesters
+    // JacksonTester : để tạo và phân tích cú pháp JSON
     @Autowired
     private JacksonTester<SuperHero> jsonSuperHero;
 
